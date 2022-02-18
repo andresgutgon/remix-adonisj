@@ -1,0 +1,11 @@
+{
+  "typescript": true,
+  "commands": ["./commands", "@adonisjs/core/build/commands/index.js"],
+  "exceptionHandlerNamespace": "App/Exceptions/Handler",
+  "metaFiles": [
+    {
+      "pattern": "public/**",
+      "reloadServer": false
+    }
+  ]
+}
